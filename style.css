@@ -1,0 +1,85 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer{
+  margin-top:60px;
+  padding:20px 40px;
+  border-top:1px solid #ddd;
+  display:flex;
+  justify-content: space-between;
+  gap:20px;
+  font-size:14px;
+}
+
+.iconssm{
+  display:flex;
+  list-style:none;/*quita los puntos de los enlaces*/
+  gap:24px;/*espacio entre ellos*/
+  padding: 0 0 0 10px;
+}
+
+.bandera{
+    display: flex;
+    gap: 10px;
+}
+.bandera img{
+    width: 30px;
+    height: 30px;
+    
+}
+
+.terminos a{
+  text-decoration:none;/*quita el subrayado de los enlaces*/
+  color:#555;
+  font-size:14px;
+  justify-content: first baseline;
+}
+
