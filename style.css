@@ -47,39 +47,116 @@
 
 
 
-/* FOOTER */
+/* FOOTER, distribución de los elementos del footer*/
+
+footer .container{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
 
 footer{
   margin-top:60px;
-  padding:20px 40px;
   border-top:1px solid #ddd;
-  display:flex;
-  justify-content: space-between;
-  gap:20px;
-  font-size:14px;
+  background:#f5f5f5;
+  padding: 8px 40px;/*8 arriba y abajo*/
 }
 
+/* dividimos en espacios iguales las tres columnas */
+.iconssm,.bandera,.terminos{
+  flex:1;
+}
+
+
+/*redes sociales*/
 .iconssm{
   display:flex;
   list-style:none;/*quita los puntos de los enlaces*/
-  gap:24px;/*espacio entre ellos*/
-  padding: 0 0 0 10px;
+  gap:20px;/*espacio entre ellos*/
+  padding: 0;
+  margin: 0;
 }
 
+.iconssm img{
+  width: 20px;
+}
+
+/*bandera y país*/
 .bandera{
-    display: flex;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color:#555;/*color letras país*/
 }
 .bandera img{
-    width: 30px;
-    height: 30px;
-    
+  width: 20px;
 }
 
+/*enlaces legales*/
+.terminos{
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+}
 .terminos a{
   text-decoration:none;/*quita el subrayado de los enlaces*/
   color:#555;
   font-size:14px;
-  justify-content: first baseline;
+}
+.terminos a:hover{
+  text-decoration: underline;
 }
 
+/*para hacer que todos los elementos queden alineados debemos utilizar el mismo container para todos los elementos del html
+<header>
+  <div class="container">
+    ...
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    ...
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    ...
+  </div>
+</footer>
+CSS
+.container{
+  max-width:1200px;
+  margin:auto;
+  padding:0 40px;
+}
+
+el footer no debe controlar el layout, dejamos el footer solo con el fondo y padding
+footer{
+  margin-top:60px;
+  border-top:1px solid #ddd;
+  background:#f5f5f5;
+  padding:10px 0;
+}
+
+El layout real se hace en el container del footer
+footer{
+  margin-top:60px;
+  border-top:1px solid #ddd;
+  background:#f5f5f5;
+  padding:10px 0;
+}
+
+casi todas las webs usan;
+footer .container{
+  display:flex;
+  align-items:center;
+}porque mantiene todo el diseño alineado
+
+
+
+
+*/
