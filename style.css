@@ -1,0 +1,36 @@
+.product-view {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.zoom{
+    width: 55px;
+   height: 55px;
+   object-fit: contain;
+   cursor: pointer;
+   border-radius: 10px;
+   transition: 0.2s;
+}
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+.imgcentral{
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgcentral img{
+    width: 100%;
+  max-width: 450px;
+  object-fit: contain;
+}
