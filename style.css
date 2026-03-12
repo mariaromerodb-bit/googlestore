@@ -149,13 +149,159 @@ ul{
     display:flex; flex-wrap: wrap;
 }
 
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  background:#FFFFFF;
+  color:#333;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.vista-producto {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+.earbuds {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.casco {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 30px;
+    border: 1px solid black; 
+}
+  
+.imgcentral {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    display: inline-block;
+}
+
+/*HeaderDebby*/
+ 
+.headercontainer {
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: flex-end; */
+  
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navitemGoogle {
+    margin-right: 20px;
+}
+
+.navitemGoogle img {
+    width: 100px;
+    height: auto;
+}   
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+} 
+
+.menu li {
+    margin-right: 20px;
+}  
+
+.navcontainer img {
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}
+    
+/* FOOTER, distribución de los elementos del footer*/
+
+footer .container{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+footer{
+  margin-top:60px;
+  border-top:1px solid #ddd;
+  background:#f5f5f5;
+  padding: 8px 40px;/*8 arriba y abajo*/
+}
+
+/* dividimos en espacios iguales las tres columnas */
+.iconssm,.bandera,.terminos{
+  flex:1;
+}
 
 
+/*redes sociales*/
+.iconssm{
+  display:flex;
+  list-style:none;/*quita los puntos de los enlaces*/
+  gap:20px;/*espacio entre ellos*/
+  padding: 0;
+  margin: 0;
+}
 
+.iconssm img{
+  width: 20px;
+}
 
+/*bandera y país*/
+.bandera{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color:#555;/*color letras país*/
+}
+.bandera img{
+  width: 20px;
+}
 
-
-
-
-
+/*enlaces legales*/
+.terminos{
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+}
+.terminos a{
+  text-decoration:none;/*quita el subrayado de los enlaces*/
+  color:#555;
+  font-size:14px;
+}
+.terminos a:hover{
+  text-decoration: underline;
+}
 

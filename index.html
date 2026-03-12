@@ -10,39 +10,58 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-
-            <img src="./images/google-logo.png" alt="Google Logo">
-            <ul class="menu">
-                <li>Phones</li>
-                <li>Earbuds</li>
-                <li>Watches</li>
-                <li>Smart home</li>
-                <li>Accessories</li>
-                <li>Subscriptions</li>
-            </ul>
-            <img src="./images/icons/Search.svg">
-            <img src="./images/icons/Help.svg">
-            <img src="./images/icons/Cart.svg">
-            <img src="./images/icons/Avatar.svg">
-        </nav>
-    </header>
+    <div class="headercontainer">
+        <header class="header">
+            <nav class="nav">
+                <div class="navcontainer">
+                    <ul class="navlist">
+                        <li class="navitemGoogle">
+                            <a href="./index.html"> <!-- Google Store-->
+                                <img src="./images/google-logo.png" alt="Google Store Logo">
+                            </a>
+                            <!-- <span>
+                                <img src="./images/google-logo.png" alt="Google Store Logo">
+                            </span> -->
+                        </li>
+                        <div class="navcontainermenu1">
+                            <ul class="navlistmenu1">
+                                <li><a href="./products.html">Phones</a></li>
+                                <li><a href="./products.html">Earbuds</a></li>
+                                <li><a href="./products.html">Watches</a></li>
+                                <li><a href="./products.html">Smart home</a></li>
+                                <li><a href="./products.html">Accessories</a></li>
+                                <li><a href="./products.html">Subscriptions</a></li>
+                            </ul>
+                        </div>
+                        <div class="navcontainermenu2">
+                            <ul class="navlistmenu2">
+                                <img src="./images/icons/Search.svg" alt="Search icon">
+                                <img src="./images/icons/Help.svg" alt="Help icon">
+                                <img src="./images/icons/Cart.svg" alt="Cart icon">
+                                <img src="./images/icons/Avatar.svg" alt="Avatar icon">
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
     <main>
         <section class="galeria">
             <div class="arrow">
-                <a href="./products.html"><img src="./images/icons/Arrow.svg">
-                    <span>product details</span>
-                </a>
+                <a href="./products.html"><img src="./images/icons/Arrow.svg" alt="descrition"></a>
+                <span>product details</span>
             </div>
-            <div class="earbods">
-                <img src="./images/earbuds/earbuds_01.png">
-                <img src="./images/earbuds/earbuds_02.png">
-                <img src="./images/earbuds/earbuds_03.png">
-                <img src="./images/earbuds/earbuds_04.png">
-            </div>
-            <div class="imgcentral">
-                <img src="./images/earbuds/earbuds_01.png">
+            <div class="vista-producto">
+                <div class="earbuds">
+                    <img src="./images/earbuds/earbuds_01.png" class="casco" alt="casco">
+                    <img src="./images/earbuds/earbuds_02.png" class="casco" alt="casco">
+                    <img src="./images/earbuds/earbuds_03.png" class="casco" alt="casco">
+                    <img src="./images/earbuds/earbuds_04.png" class="casco" alt="casco">
+                </div>
+                <div class="imgcentral">
+                    <img id="mainDisplay" src="./images/earbuds/earbuds_01.png" class="con-borde">
+                </div>
             </div>
         </section>
         <section class="info">
@@ -78,6 +97,9 @@
                     <option value="5">5</option>
                     <option value="6">6</option>
                 </div>
+                </section>
+                </div>
+                </article>
                 </select>
                 <button>Add to Cart</button>
             </div>
@@ -91,6 +113,44 @@
    </ul>
     </section>
     </main>
+</body>
+
+
+    <footer>
+        <div class="container">
+
+            <ul class="iconssm">
+                <li>
+                    <a href="#"><img src="./images/icons/SM-x.svg" alt="X"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/icons/SM-instagram.svg" alt="instagram"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/icons/SM-facebook.svg" alt="facebook"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/icons/SM-youtube.svg" alt="youtube"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/icons/SM-tiktok.svg" alt="tiktok"></a>
+                </li>
+            </ul>
+
+            <div class="bandera">
+                <img src="./images/icons/Spain.svg" alt="Spain">
+                <p>Spain</p>
+            </div>
+
+            <div class="terminos">
+                <a href="#">Privacy</a>
+                <a href="#">Sales Terms</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
 
 </html>
