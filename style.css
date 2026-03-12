@@ -45,3 +45,52 @@
     margin-left: 20px;
 } 
 
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  background:#FFFFFF;
+  color:#333;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.vista-producto {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+.earbuds {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.casco {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 30px;
+    border: 1px solid black; 
+}
+  
+.imgcentral {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    display: inline-block;
+}
+ 
