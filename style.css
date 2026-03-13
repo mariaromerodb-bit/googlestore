@@ -1,3 +1,154 @@
+ .info1 h1{
+color: #0b0b0b;
+font-family: Inter, sans-serif;
+font-size: 35px;
+font-weight: bold;
+ }
+ 
+.info1 p{
+    color: #57626b;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+} 
+
+.info1 h2{
+    color:#0b0b0b;
+    font-family: Inter, sans-serif;
+    font-size:20px;
+    font-weight:bold;
+} 
+.info hr {
+    border: solid 1px #57626b;
+}
+
+.quantity{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom:30px;
+}
+element.style{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom:20px;
+    width: 290px;
+    font-size: 20px;
+}
+
+.numbers{
+    color: #0b0b0b;
+    font-family: Inter, sans-serif;
+    width: 290px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.numbers hr{
+    border: solid 1px #57626b;
+}
+ 
+.colorselection{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom:30px;
+}
+
+.colors-row{
+    display:flex;
+    gap: 10px;
+}
+
+.color{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.blue{
+    background: rgb(105, 137, 241);
+}
+
+.gray{
+    background: lightgray;
+}
+
+.black{
+    background: black;
+}
+
+.white{
+    background: rgb(126, 123, 123);
+}
+
+.green{
+    background: rgb(182, 222, 112);
+}
+
+.pink{
+    background: rgb(231, 114, 133);
+}
+
+/*Estilo especifico para el numero (diferente color)*/
+.options{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+ 
+.delivery1{
+    color: #0b0b0b;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+}
+#delivery{
+    color: #0b0b0b;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+}
+.info hr {
+    border: solid 1px #57626b;
+}
+
+p{
+    color:#57626b;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+} 
+strong{
+    color:rgb(11, 11, 235);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}     
+button{
+    background-color: blue;
+    color: white;
+    font-family:Inter, sans-serif;
+    width: 290px;
+    font-size: 20px;
+
+} 
+
+article{
+    background-color: #eaeeef;
+}
+
+ul{
+    display:flex; flex-wrap: wrap;
+    align-items: center;
+    gap: 8px; 
+    margin-top: 20px;
+}
+
+.colorselection ul{
+    display:flex; flex-wrap: wrap;
+}
+
 *{
   margin:0;
   padding:0;
